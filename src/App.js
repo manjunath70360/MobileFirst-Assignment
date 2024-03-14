@@ -7,8 +7,8 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Login} /> {/* Set the login component as the default route */}
-        <Route path="/home" component={Home} /> {/* Set the home component */}
+        <Route exact path="/" component={Login} /> 
+        <Route path="/home" component={Home} /> 
       </Switch>
     </Router>
   );
